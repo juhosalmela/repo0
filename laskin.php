@@ -39,7 +39,7 @@ if (is_numeric($n1) && is_numeric($n2)) {
         echo $n1 / $n2;
     }
 } else {
-    echo "Käytä vain numeroita";
+    echo "Vain numerot ovat sallittuja";
 }
 
 ?>
