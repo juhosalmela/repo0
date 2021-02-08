@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Php include</title>
     <style>
+    body {
+        margin-top: 1em;
+    }
     .grid-container {
     width: 70%;
     margin: auto;
+    background-image: url("tausta.jpg");
+    border-radius: 25px;
+    padding: 1em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 6fr 1fr;
@@ -23,7 +29,6 @@
     .pic { grid-area: pic; }
     img { 
         width: 100%; 
-        /* max-height: 100%; */
     }
     </style>
 </head>
