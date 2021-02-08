@@ -6,10 +6,12 @@
     <title>Php include</title>
     <style>
     .grid-container {
+    width: 70%;
+    margin: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 6fr 1fr;
-    gap: 0px 0px;
+    gap: 1em 1em;
     grid-template-areas:
         "header header header"
         "main main pic"
